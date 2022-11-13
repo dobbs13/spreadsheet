@@ -1,0 +1,16 @@
+<div *ngIf="isActive">
+  <div *ngFor="let client of clientsInfo">
+    <span>
+      {{client.name.first}} {{client.name.last}} Company is: {{client.company}}
+    </span>
+  </div>
+</div>
+
+<style scoped>
+  div {
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+</style>
