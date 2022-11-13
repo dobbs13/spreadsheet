@@ -1,3 +1,3 @@
 # Spreadsheet
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
+Электронная таблица, данные в которой заполняются и отфильтровываются из массива объектов по ключу "type"
